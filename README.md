@@ -1,22 +1,5 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/R8CIO1DZ2b8" target="_blank">
-      <img src="https://github.com/adrianhajdin/zoom-clone/assets/67959015/f09a8421-67d3-45ce-b9bc-a791cdc2774b" alt="Project Banner">
-    </a>
-  
-  <br />
-
-  <div>
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-  <h3 align="center">A Zoom Clone</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h3 align="center">A Zoom Integrated LMS</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -28,61 +11,51 @@
 5. 🕸️ [Assets & Code](#snippets)
 6. 🚀 [More](#more)
 
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/R8CIO1DZ2b8" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
+This project integrates Zoom functionality within a Learning Management System (LMS), allowing seamless video conferencing for educational purposes. Users can securely log in, create meetings, and utilize a variety of meeting features such as recording, screen sharing, and participant management.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 30 thousand members. It's a place where people help each other out.
+Key functionalities include:
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+- **Authentication** via social logins or traditional email/password using Clerk.
+- **Real-time Communication** via Zoom's meeting and video conferencing features.
+- **Meeting Management**: Schedule meetings, join via links, and access recorded sessions.
+- **Secure Real-Time Features**: Maintaining user privacy and data integrity during live interactions.
+- **Responsive Design**: Optimized for various devices to ensure a great user experience.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Next.js
 - TypeScript
 - Clerk
-- getstream
-- shadcn
+- Getstream
 - Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
 
+👉 **Authentication**: Implements authentication and authorization features using Clerk for secure logins via social sign-on or email/password.
 
-👉 **Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
+👉 **New Meeting**: Start a new meeting with customizable camera and microphone settings.
 
-👉 **New Meeting**: Quickly start a new meeting, configuring camera and microphone settings before joining.
+👉 **Meeting Controls**: Full control over meetings including features like recording, screen sharing, muting, sound adjustments, participant management, and more.
 
-👉 **Meeting Controls**: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
+👉 **Exit Meeting**: Allows participants to leave the meeting, or the host to end it for all attendees.
 
-👉 **Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
+👉 **Schedule Future Meetings**: Schedule meetings by setting a date and time, visible in the 'Upcoming Meetings' page for easy access.
 
-👉 **Schedule Future Meetings**: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
+👉 **Past Meetings List**: Access and view past meetings, including metadata and recordings.
 
-👉 **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
+👉 **Personal Room**: Users have a unique personal room with a shareable meeting link for instant meetings.
 
-👉 **View Recorded Meetings**: Access recordings of past meetings for review or reference.
+👉 **Join Meetings via Link**: Easily join meetings by clicking on shared links.
 
-👉 **Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
+👉 **Real-Time Functionality**: All actions are executed in real-time with secured user data.
 
-👉 **Join Meetings via Link**: Easily join meetings created by others by providing a link.
-
-👉 **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
-
-👉 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
-
-and many more, including code architecture and reusability. 
+👉 **Responsive Design**: The layout adapts seamlessly across screen sizes, providing an optimal experience.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+Follow these steps to set up the project locally.
 
 **Prerequisites**
 
@@ -90,14 +63,14 @@ Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [npm](https://www.npmjs.com/)
 
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/zoom-clone.git
+git clone https://github.com/talha7k/zoomLMS.git
 cd zoom-clone
-```
+
 
 **Installation**
 
@@ -250,6 +223,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
     width: 100%;
   }
 }
+
 ```
 
 </details>
@@ -326,6 +300,7 @@ const config = {
 } satisfies Config;
 
 export default config;
+
 ```
 
 </details>
@@ -386,8 +361,8 @@ const MeetingCard = ({
               alt="attendees"
               width={40}
               height={40}
-              className={cn("rounded-full", { absolute: index > 0 })}
-              style={{ top: 0, left: index * 28 }}
+              className={cn("rounded-full", { absolute: index > 0 })} 
+              style={{ top: 0, left: index * 28 }} 
             />
           ))}
           <div className="flex-center absolute left-[136px] size-10 rounded-full border-[5px] border-dark-3 bg-dark-4">
@@ -427,20 +402,11 @@ const MeetingCard = ({
 };
 
 export default MeetingCard;
+
 ```
 
 </details>
 
 ## <a name="links">🔗 Links</a>
 
-Public assets used in the project can be found [here](https://drive.google.com/file/d/1ofTpWii_sCIdJ14uQ431xWVXpYgjtQ8Q/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
+Public assets used in the project can be found [here](https://drive.google.com/file/d/1GufHQeQmlWMsKzB-eAu9A8jdpzYOiTnY/view?usp=sharing)
